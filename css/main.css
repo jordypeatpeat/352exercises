@@ -41,18 +41,6 @@ header h3 {
 
 }
 
-.scrim > h2 {
-    /* Using the ">" character here selects any h2 that is an IMMEDIATE (direct) child of a .hero class element. If an h2 was nested inside a div inside a .hero element, it would be unaffected. */
-    position: relative;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-    font-weight: 100;
-    color: white;
-    font-size: 3rem;
-    text-shadow: 0 5px 15px rgba(25,25,25,0.9);
-}
-
 .body-section {
     margin-top: 100px;
     margin-bottom: 300px;
