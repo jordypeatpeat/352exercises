@@ -23,9 +23,14 @@ header {
 
 header h3 {
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 0.1rem;
     text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    transition: ease 1s; 
 }
 
 .mobile-notifier {
@@ -58,12 +63,18 @@ header h3 {
         background-color: #4CFFCD;
         color: rgb(70,70,85);
     }
+    h1 {
+        font-size: 2rem;        
+    }
 }
 
 @media(max-width: 800px) {
     html {
         background-color: #00FFB7;
         color: rgb(70,70,85);
+    }
+    h1 {
+        font-size: 1.5rem;        
     }
 }
 
@@ -72,12 +83,18 @@ header h3 {
         background-color: #00DD92;
         color: rgb(70,70,85);
     }
+    h1 {
+        font-size: 1.2rem;        
+    }
 }
 
 @media(max-width: 500px) {
     html {
         background-color: #007F5B;
         color: white;
+    }
+    h1 {
+        font-size: 1rem;        
     }
 }
 
